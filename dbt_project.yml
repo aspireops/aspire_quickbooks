@@ -76,6 +76,8 @@ vars:
     using_credit_card_payment_txn: false
     using_purchase_order: true
 
+    quickbooks_schema: 'quickbooks_service'
+
 analysis-paths: ["analysis"]
 clean-targets:
 - target
