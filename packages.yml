@@ -1,2 +1,2 @@
 packages:
-  - package: https://github.com/aspireops/aspire_quickbooks_source.git
+  - git: https://github.com/aspireops/aspire_quickbooks_source.git

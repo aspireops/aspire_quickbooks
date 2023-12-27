@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aspire-quickbooks"
+version = "0.1.0"
+description = ""
+authors = ["jchevalier <jmc083@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dbt = "^1.0.0.35.1"
+dbt-snowflake = "^1.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
