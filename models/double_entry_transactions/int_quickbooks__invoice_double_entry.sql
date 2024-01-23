@@ -147,7 +147,7 @@ invoice_filter as (
 
     select *
     from invoice_join
-    where invoice_line_transaction_type not in ('SubTotalLineDetail','NoAccountMapping')
+    where invoice_line_transaction_type not in ('SubTotalLineDetail','NoAccountMapping', 'DescriptionOnly')
 ),
 
 final as (
